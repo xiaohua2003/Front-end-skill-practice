@@ -1,4 +1,4 @@
-* @return {number[]} An array of 2 indices. The indices of the two elements whose sum is equal to sum.
+/* @return {number[]} An array of 2 indices. The indices of the two elements whose sum is equal to sum.
  */
 function findTwoSum(numbers, sum) {
   // Your code goes here
