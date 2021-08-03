@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Entry</title>
+    <style>
+      /* Write your CSS here */
+      .container{
+        display:flex;
+        flex-direction:column;
+        margin:0 2%;
+      }
+      form{
+        width:100%;
+      }
+      .submit{
+        background-color:#EEEEEE;
+        text-align:center;
+        border:none;
+        padding:0.5%;
+      }
+      .negative{
+        background-color:green;
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Complete your form element -->
+    <form>
+      <div class="container">
+        <div class="container">
+          <label for="name">Name</label>
+          <input id="name" placeholder="Write your name here">
+        </div>
+        <div class="container">
+          <label for="opinion">Opinion</label>
+          <select id="opinion">
+            <option value="positive">Positive</option>
+            <option value="neutral">Neutral</option>
+            <option value="negative" class="negative">Negative</option>
+          </select>
+        </div>
+       <div class="container">
+         <input type="button" value="Submit" class="submit">
+       </div>
+      </div>
+    </form>
+  </body>
+</html>
